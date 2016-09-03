@@ -1,0 +1,31 @@
+//buzztouch plugin info
+uniquePluginId: SW_smugAware
+displayAs: Smug Aware
+category: Screen
+loadClassOrActionName: SW_smugAware
+hasChildItems: No
+supportedDevices: iosAndAndroid
+
+//author info
+authorName: SmugWimp
+authorEmail: smugwimp@smugwimp.com
+authorBuzztouchURL: https://www.buzztouch.com/SmugWimp
+authorWebsiteURL: http://www.smugwimp.com
+authorTwitterURL: http://www.twitter.com/smugwimp
+authorFacebookURL: http://www.facebook.com/smugwimp
+authorLinkedInURL: http://www.i_dont_link_in.com/
+authorYouTubeURL: http://www.youtube.com/smugwimp
+
+//version info
+versionNumber: 1.0
+versionString: v1.0
+updateURL: https://www.buzztouch.com/plugins/update.php?pid=8B9F4630597E8618D24CA7C
+downloadURL: https://www.buzztouch.com/plugins/download.php?pid=8B9F4630597E8618D24CA7C
+
+//default json data
+defaultJSONData:
+{"navBarTitleText":"[itemNickname]"}
+
+//description for control panel. Up to 250 characters. No HTML.
+shortDescription:
+Allows certain Flight Aware data to be displayed on screen.

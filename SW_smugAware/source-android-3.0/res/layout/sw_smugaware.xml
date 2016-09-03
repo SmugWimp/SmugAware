@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/containerView"
+	android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+    
+	<fragment
+  		android:id="@+id/mapView"
+  		android:name="com.google.android.gms.maps.MapFragment"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_weight="1"
+        tools:layout="@layout/bt_screen_map"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/sa_adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        >
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
